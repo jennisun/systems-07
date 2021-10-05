@@ -8,6 +8,7 @@ void printArr(int *arr, int k) {
   printf("]\n");
 }
 
+// 2
 double avgArr(int *arr, int k) {
   int sum = 0;
   int i = 0;
@@ -15,6 +16,7 @@ double avgArr(int *arr, int k) {
   return sum / k;
 }
 
+// 3
 void copyArr(int *arr1, int *arr2, int k) {
   int i = 0;
   for (int i = 0; i < k; i ++) *(arr2 + i) = *(arr1 + i);
